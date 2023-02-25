@@ -70,6 +70,7 @@ const CartProvider = (props) => {
       item: item,
     });
   };
+  
 
   const removeItemFromCartHandler = (id) => {
     dispatchCartAction({
